@@ -45,6 +45,27 @@ nnoremap <Leader>o :CtrlP<cr>
 nnoremap <Leader>w :w<cr>
 nnoremap <Leader>q :q<cr>
 
+"Gundo settings
+set undodir=~/.vim/tmp/undo//
+set undofile
+set history=700
+set undolevels=700
+
+"Syntastic settings
+set number
+set laststatus=2
+set statusline+=%#warningsmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+
+"Airline settings
+let g:airline#extensions#tabline#left_sep = ' '
+let g:airline#extensions#tabline#left_alt_sep = '|'
+let g:airline_theme='powerlineish'
+let g:airline_left_sep=''
+let g:airline_right_sep=''
+let g:airline_section_z=''
+
 "Theme
 set t_Co=256
 colorscheme PaperColor
