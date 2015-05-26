@@ -15,3 +15,6 @@ set softtabstop=4
 set shiftwidth=4
 set shiftround
 set expandtab
+
+"Map Leader to space
+let mapleader = "\<space>"
