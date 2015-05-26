@@ -37,3 +37,14 @@ set expandtab
 
 "Map Leader to space
 let mapleader = "\<space>"
+
+"Re-maps
+nnoremap <Leader>t :NERDTree<cr>
+nnoremap <Leader>g :GundoToggle<cr>
+nnoremap <Leader>o :CtrlP<cr>
+nnoremap <Leader>w :w<cr>
+nnoremap <Leader>q :q<cr>
+
+"Theme
+set t_Co=256
+colorscheme PaperColor
