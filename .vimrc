@@ -45,6 +45,16 @@ nnoremap <Leader>o :CtrlP<cr>
 nnoremap <Leader>w :w<cr>
 nnoremap <Leader>q :q<cr>
 
+"Adds a blue highlight when going past 81 charecters
+highlight colorcolumn ctermbg=blue
+call matchadd('colorcolumn','\%81v', 100)
+
+"Search Settings
+set hlsearch
+set incsearch
+set ignorecase
+set smartcase
+
 "Gundo settings
 set undodir=~/.vim/tmp/undo//
 set undofile
