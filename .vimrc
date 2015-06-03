@@ -27,6 +27,9 @@ Plugin 'lervag/vimtex' "adds latex support
 call vundle#end()
 "Vundle end
 
+"Auto reloads the vimrc file so you don't have to open/close
+autocmd! bufwritepost _vimrc source %
+
 "Personal tab style
 filetype plugin indent on
 set tabstop=4
