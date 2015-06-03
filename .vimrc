@@ -44,6 +44,8 @@ nnoremap <Leader>g :GundoToggle<cr>
 nnoremap <Leader>o :CtrlP<cr>
 nnoremap <Leader>w :w<cr>
 nnoremap <Leader>q :q<cr>
+vmap v <plug>(expand_region_expand)
+vmap <c-v> <plug>(expand_region_shrink)
 
 "Adds a blue highlight when going past 81 charecters
 highlight colorcolumn ctermbg=blue
