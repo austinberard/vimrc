@@ -38,6 +38,12 @@ set shiftwidth=4
 set shiftround
 set expandtab
 
+"Mouse goes where you click, and paste settings
+set pastetoggle=<f2>
+set clipboard=unnamed
+set mouse=a
+set bs=2
+
 "Map Leader to space
 let mapleader = "\<space>"
 
