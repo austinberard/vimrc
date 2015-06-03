@@ -51,14 +51,20 @@ let mapleader = "\<space>"
 nnoremap <Leader>t :NERDTree<cr>
 nnoremap <Leader>g :GundoToggle<cr>
 nnoremap <Leader>o :CtrlP<cr>
+
 nnoremap <Leader>w :w<cr>
 nnoremap <Leader>q :q<cr>
+
 vmap v <plug>(expand_region_expand)
 vmap <c-v> <plug>(expand_region_shrink)
+
 nnoremap <c-h> <c-w>h
 nnoremap <c-j> <c-w>j
 nnoremap <c-k> <c-w>k
 nnoremap <c-l> <c-w>l
+
+nnoremap <leader>n :tabprevious<cr>
+nnoremap <leader>m :tabnext<cr>
 
 "Adds a blue highlight when going past 81 charecters
 highlight colorcolumn ctermbg=blue
