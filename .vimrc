@@ -47,7 +47,7 @@ set bs=2
 "Map Leader to space
 let mapleader = "\<space>"
 
-"Re-maps
+"Normal Mode Re-maps
 nnoremap <Leader>t :NERDTree<cr>
 nnoremap <Leader>g :GundoToggle<cr>
 nnoremap <Leader>o :CtrlP<cr>
@@ -55,11 +55,14 @@ nnoremap <Leader>w :w<cr>
 nnoremap <Leader>q :q<cr>
 nnoremap <leader>n :tabprevious<cr>
 nnoremap <leader>m :tabnext<cr>
+nnoremap <Leader>r :!python3 % <CR>
+nnoremap <Leader>R :!python % <CR>
 nnoremap <c-h> <c-w>h
 nnoremap <c-j> <c-w>j
 nnoremap <c-k> <c-w>k
 nnoremap <c-l> <c-w>l
 
+"Visual Mode Re-maps
 vmap v <plug>(expand_region_expand)
 vmap <c-v> <plug>(expand_region_shrink)
 vnoremap <Leader>s :sort<CR>
