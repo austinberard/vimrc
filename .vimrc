@@ -51,6 +51,10 @@ vmap <c-v> <plug>(expand_region_shrink)
 highlight colorcolumn ctermbg=blue
 call matchadd('colorcolumn','\%81v', 100)
 
+"Highlights trailing charecters
+exec "set listchars=tab:\ubb\ubb,trail:\ub7,nbsp:~"
+set list
+
 "Search Settings
 set hlsearch
 set incsearch
